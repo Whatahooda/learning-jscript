@@ -4,8 +4,12 @@
         <title>Learning JS</title>
     </head>
 
-    <body>
-        <h1>Hello World!</h1>
-        <p>This is normal html for now.</p>
-    </body>
+    <h1>Hello World!</h1>
+    <p>This is normal html for now.</p>
+
+    <button type="button" onclick="document.getElementById('test').innerHTML = Date()">
+        Click me to display the time!
+    </button>
+
+    <p id="test"></p>
 </html>
